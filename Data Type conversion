@@ -1,0 +1,69 @@
+#Datatype conversion
+
+#int ==> Float, bool & string
+a = 10
+
+print(a)
+print(type(a))
+
+b = float(a)
+
+print(b)
+print(type(b))
+
+c = bool(a)
+
+print(c)
+print(type(c))
+
+d = str(a)
+
+print(d)
+print(type(d))
+
+
+#String ==> int, Float & bool
+
+a = "Python"
+
+print(a)
+print(type(a))
+
+b = float(len(a))
+
+print(b)
+print(type(b))
+
+c = bool(len(a))
+
+print(c)
+print(type(c))
+
+d = int(len(a))
+
+print(d)
+print(type(d))
+
+#Float ==> Int, Bool and String
+
+a = True
+
+print(a)
+print(type(a))
+
+b = int(a)
+
+print(b)
+print(type(b))
+
+c = float(a)
+
+print(c)
+print(type(c))
+
+d = str(a)
+
+print(d)
+print(type(d))
+
+
